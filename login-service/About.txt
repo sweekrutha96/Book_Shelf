@@ -1,0 +1,9 @@
+About
+
+Passionate Full Stack Developer with a solid foundation in construction technology. Leveraging my engineering background to bridge the gap between construction and technology, I bring a unique perspective to software development.
+
+Experienced in front-end and back-end development, I excel in creating web applications that not only meet user needs but also optimize processes. My proficiency includes a wide range of programming languages, frameworks, and tools such as HTML, CSS, REACT, JavaScript Node.js and MongoDb.
+
+Committed to continuous learning, I stay updated with the latest industry trends and technologies. I thrive in collaborative environments, working seamlessly with cross-functional teams to deliver innovative solutions.
+
+Let's connect to explore opportunities to merge technology with construction expertise for a brighter and more efficient future in the industry.
