@@ -4,6 +4,12 @@ const router = require("./routes/book-routes");
 const cors = require("cors");
 const app = express();
 
+app.use(cors({
+  origin: ["https://book-shelf-back-end.vercel.app","https://book-shelf-login-back-end.vercel.app"],
+  methods: ["POST","GET","DELETE","PUT","PATCH"]
+  credentials: true,
+}));
+
 // Middlewares
 app.use(express.json());
 app.use(cors());

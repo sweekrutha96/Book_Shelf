@@ -8,7 +8,7 @@ export const UserRegistration = data => {
 
     data["password"] = hash;
 
-    return axios.post('http://localhost:9002/register', data)
+    return axios.post('https://book-shelf-login-back-end.vercel.app/register', data)
         .then(res => res.status);
 };
 

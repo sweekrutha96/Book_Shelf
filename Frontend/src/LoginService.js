@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const LoginService = data => (
-	axios.post('http://localhost:9002/login', data)
+	axios.post('https://book-shelf-login-back-end.vercel.app/login', data)
 		.then(res => res.status)
 )
 
