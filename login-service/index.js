@@ -6,7 +6,7 @@ const app = express()
 
 app.use(cors({
   origin: ["https://book-shelf-back-end.vercel.app","https://book-shelf-login-back-end.vercel.app"],
-  methods: ["POST","GET","DELETE","PUT","PATCH"]
+  methods: ["POST","GET","DELETE","PUT","PATCH","OPTIONS"]
   credentials: true,
 }));
 
