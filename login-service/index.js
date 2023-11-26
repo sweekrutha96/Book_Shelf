@@ -5,7 +5,7 @@ import mongoose from "mongoose"
 const app = express()
 
 app.use(cors({
-  origin: ["https://book-shelf-back-end.vercel.app","https://book-shelf-login-back-end.vercel.app"],
+  origin: [""],
   methods: ["POST","GET","DELETE","PUT","PATCH","OPTIONS"],
   credentials: true
 }));
@@ -15,7 +15,7 @@ app.use(express.urlencoded())
 app.use(cors())
 
 
-mongoose.connect("mongodb+srv://admin:knywpVTYMT9t9c2h@cluster0.kccg0e0.mongodb.net/users?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://admin:admin@cluster0.w7feqcf.mongodb.net/users?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
