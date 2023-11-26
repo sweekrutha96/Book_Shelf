@@ -67,7 +67,11 @@ app.post("/register", (req, res)=> {
         }
     })
     
-}) 
+})
+
+app.get("/hello", (req, res) => {
+  res.send("Hello World!")
+})
 
 app.listen(9002,() => {
     console.log("BE started at port 9002")
