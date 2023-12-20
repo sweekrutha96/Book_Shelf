@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 
-mongoose.connect("mongodb+srv://admin:admin@cluster0.w7feqcf.mongodb.net/users?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://admin:EncFMtJLpKZjAz7L@cluster0.kccg0e0.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
