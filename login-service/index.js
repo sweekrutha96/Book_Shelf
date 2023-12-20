@@ -6,13 +6,11 @@ const app = express()
 
 app.use(cors({
   origin: [""],
-  methods: ["POST","GET","DELETE","PUT","PATCH","OPTIONS"],
-  credentials: true
+  methods: ["POST","GET","DELETE","PUT","PATCH","OPTIONS"]
 }));
 
 app.use(express.json())
 app.use(express.urlencoded())
-app.use(cors())
 
 
 mongoose.connect("mongodb+srv://admin:admin@cluster0.w7feqcf.mongodb.net/users?retryWrites=true&w=majority", {
